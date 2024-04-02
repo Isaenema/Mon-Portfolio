@@ -6,8 +6,6 @@ import projImg3 from "../assets/img/optimisationSEO.webp";
 import projImg4 from "../assets/img/thumbnail-Booki.webp";
 import projImg5 from "../assets/img/thumbnail-Argentbank.webp";
 import projImg6 from "../assets/img/thumbnail-Ohmyfood.webp";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
@@ -54,49 +52,47 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
-              <h2>Projets</h2>
-              <p>
-                Un échantillon de mes derniers projets réaliser avec HTML, CSS,
-                SASS, javascript, React et Redux.
-              </p>
-              <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                <Nav
-                  variant="pills"
-                  className="nav-pills mb-5 justify-content-center align-items-center"
-                  id="pills-tab"
-                >
-                  <Nav.Item>
-                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                  </Nav.Item>
-                </Nav>
-                <Tab.Content id="slideInUp">
-                  <Tab.Pane eventKey="first">
-                    <Row>
-                      {projects.map((project, index) => {
-                        return <ProjectCard key={index} {...project} />;
-                      })}
-                    </Row>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="section">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cumque quam, quod neque provident velit, rem explicabo
-                      excepturi id illo molestiae blanditiis, eligendi dicta
-                      officiis asperiores delectus quasi inventore debitis quo.
-                    </p>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="third">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Cumque quam, quod neque provident velit, rem explicabo
-                      excepturi id illo molestiae blanditiis, eligendi dicta
-                      officiis asperiores delectus quasi inventore debitis quo.
-                    </p>
-                  </Tab.Pane>
-                </Tab.Content>
-              </Tab.Container>
-            </TrackVisibility>
+            <h2>Projets</h2>
+            <p>
+              Un échantillon de mes derniers projets réaliser avec HTML, CSS,
+              SASS, javascript, React et Redux.
+            </p>
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                </Nav.Item>
+              </Nav>
+              <Tab.Content id="slideInUp">
+                <Tab.Pane eventKey="first">
+                  <Row>
+                    {projects.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
+                </Tab.Pane>
+                <Tab.Pane eventKey="section">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque quam, quod neque provident velit, rem explicabo
+                    excepturi id illo molestiae blanditiis, eligendi dicta
+                    officiis asperiores delectus quasi inventore debitis quo.
+                  </p>
+                </Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque quam, quod neque provident velit, rem explicabo
+                    excepturi id illo molestiae blanditiis, eligendi dicta
+                    officiis asperiores delectus quasi inventore debitis quo.
+                  </p>
+                </Tab.Pane>
+              </Tab.Content>
+            </Tab.Container>
           </Col>
         </Row>
       </Container>

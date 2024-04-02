@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/img-flottante-banner.webp";
-import "animate.css";
 
 export const Banner = () => {
   return (
