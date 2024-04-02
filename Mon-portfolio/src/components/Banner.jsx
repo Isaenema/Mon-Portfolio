@@ -10,11 +10,19 @@ export const Banner = () => {
             <span className="tagline">Bienvenue sur mon portfolio</span>
             <h1>Pierre Comte, Developpeur Front-End</h1>
             <span className="wrap"></span>
-            <p></p>
+            <p>
+              Je prends plaisir à la création d'interfaces intuitives et
+              réactives, ainsi je m'efforce constamment d'améliorer l'expérience
+              utilisateur à travers des designs innovants et une programmation
+              de pointe. Avec une approche créative, je transforme les idées en
+              solutions digitales structurées. Mon portfolio reflète mon
+              engagement à développer des projets qui répondent aux besoins de
+              chacun.
+            </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div>
-              <img src={headerImg} alt="Personnage dans l'espace" />
+              <img src={headerImg} alt="Pierre Comte dans l'espace" />
             </div>
           </Col>
         </Row>

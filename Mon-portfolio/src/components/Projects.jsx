@@ -52,7 +52,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Projets</h2>
+            <h2>Mes projets</h2>
             <p>
               Un échantillon de mes derniers projets réaliser avec HTML, CSS,
               SASS, javascript, React et Redux.
@@ -70,22 +70,6 @@ export const Projects = () => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey="section">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
-                  </p>
-                </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque quam, quod neque provident velit, rem explicabo
-                    excepturi id illo molestiae blanditiis, eligendi dicta
-                    officiis asperiores delectus quasi inventore debitis quo.
-                  </p>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>

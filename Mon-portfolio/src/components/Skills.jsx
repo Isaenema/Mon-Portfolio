@@ -1,13 +1,13 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/ProgressSoixante.webp";
+import meter2 from "../assets/img/ProgressSoixanteDix.webp";
+import meter3 from "../assets/img/ProgressQuatreVingt.webp";
+import meter4 from "../assets/img/ProgressQuatreVingtDix.webp";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -31,7 +31,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Compétences</h2>
+              <h2>Mes compétences</h2>
               <p>
                 Les outils et languages que j'ai appris à maitriser à travers le
                 temps.
@@ -42,27 +42,27 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter3} alt="Barre de progression univers à 80%" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="Barre de progression univers à 80%" />
                   <h5>CSS/SASS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter1} alt="Barre de progression univers à 60%" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="Barre de progression univers à 80%" />
                   <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter1} alt="Barre de progression univers à 60%" />
                   <h5>Redux</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="Barre de progression univers à 70%" />
                   <h5>Logo/Background design</h5>
                 </div>
               </Carousel>
