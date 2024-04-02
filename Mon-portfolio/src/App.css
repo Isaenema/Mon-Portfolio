@@ -266,9 +266,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -613,6 +613,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .contact img {
     width: 150px;
   }
+  .banner {
+    padding-top: 190px;
+  }
 }
 @media (max-width: 768px) {
   .contact img {
@@ -634,4 +637,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     justify-content: center;
     align-items: center;
   }
+  /* .banner {
+    padding-top: 170px;
+  } */
 }
