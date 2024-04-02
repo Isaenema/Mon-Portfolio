@@ -62,11 +62,7 @@ export const Projects = () => {
                 variant="pills"
                 className="nav-pills mb-5 justify-content-center align-items-center"
                 id="pills-tab"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                </Nav.Item>
-              </Nav>
+              ></Nav>
               <Tab.Content id="slideInUp">
                 <Tab.Pane eventKey="first">
                   <Row>
