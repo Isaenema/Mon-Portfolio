@@ -1,7 +1,6 @@
 import meter1 from "../assets/img/ProgressSoixante.webp";
 import meter2 from "../assets/img/ProgressSoixanteDix.webp";
 import meter3 from "../assets/img/ProgressQuatreVingt.webp";
-import meter4 from "../assets/img/ProgressQuatreVingtDix.webp";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

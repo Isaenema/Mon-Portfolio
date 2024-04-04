@@ -57,22 +57,18 @@ export const Projects = () => {
               Un échantillon de mes derniers projets réaliser avec HTML, CSS,
               SASS, javascript, React et Redux.
             </p>
-            <Tab.Container id="projects-tabs" defaultActiveKey="first">
+            <Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"
                 className="nav-pills mb-5 justify-content-center align-items-center"
                 id="pills-tab"
               ></Nav>
-              <Tab.Content id="slideInUp">
-                <Tab.Pane eventKey="first">
-                  <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
-                    })}
-                  </Row>
-                </Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
+              <Row>
+                {projects.map((project, index) => {
+                  return <ProjectCard key={index} {...project} />;
+                })}
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>
