@@ -38,7 +38,7 @@ export const Skills = () => {
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="owl-carousel owl-theme skill-slider"
+                className="skill-slider"
               >
                 <div className="item">
                   <img src={meter3} alt="Barre de progression univers à 80%" />
